@@ -51,6 +51,22 @@ nav a:hover {
 }
 
 /* Main Content */
+
+/* styles.css */
+.profile-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile-image {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the specified dimensions */
+    border: 2px solid #ccc; /* Optional: adds a border around the image */
+}
+
+
 main {
     padding: 40px 20px;
     max-width: 1000px;
