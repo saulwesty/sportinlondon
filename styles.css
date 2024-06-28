@@ -10,14 +10,21 @@ body {
 header {
     background-color: #2E8B57;
     color: white;
-    padding: 20px 0 0px 0px;
-    text-align: center;
+    padding: 20px;
+    text-align: left; /* Align content to the left */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Vertically center items */
+}
+
+header img {
+    width: 50px; /* Adjust width of the logo */
+    margin-right: 10px; /* Provide some spacing between logo and text */
 }
 
 header h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3em; /* Larger text */
-    margin: 0 0 25px 0 ;
+    font-size: 2.5em;
+    margin: 0;
 }
 
 nav {
@@ -31,9 +38,25 @@ nav a {
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
-    font-size: 1.2em; /* Larger text */
+    font-size: 1.2em;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    header img {
+        width: 40px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+}
+
 
 a {
     color: black;
