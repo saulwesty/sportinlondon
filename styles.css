@@ -35,38 +35,12 @@ nav a {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-a {
-    color: black;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #00008B; /* Change this color to your preference */
-}
-
 nav a:hover {
     background-color: #575757;
     transform: scale(1.05);
 }
 
 /* Main Content */
-
-/* styles.css */
-.profile-container {
-    text-align: center;
-    margin-top: 50px;
-}
-
-.profile-image {
-    width: 150px; /* Adjust the width as needed */
-    height: 150px; /* Adjust the height as needed */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image covers the specified dimensions */
-    border: 2px solid #ccc; /* Optional: adds a border around the image */
-}
-
-
 main {
     padding: 40px 20px;
     max-width: 1000px;
@@ -233,4 +207,23 @@ header h1 {
 .content-panel p {
     font-size: 1em;
 }
+
+.hero-image {
+    background-image: url('your-image-path.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
 }
+
+.hero-image h2 {
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Adds some contrast to text */
+    padding: 10px;
+    border-radius: 5px;
+}
+
